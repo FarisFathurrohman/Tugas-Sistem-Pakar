@@ -1,0 +1,184 @@
+{
+  "rules": [
+    {
+      "if": ["G001", "G002", "G003", "G004", "G014", "G027", "G028", "G034"],
+      "then": {
+        "code": "P001",
+        "name": "Ulkus Kornea",
+        "desc": "Infeksi atau luka terbuka pada kornea yang menyebabkan nyeri hebat, mata merah, dan gangguan penglihatan.",
+        "solution": "Segera ke dokter mata untuk antibiotik. Hindari pemakaian lensa kontak sementara."
+      }
+    },
+    {
+      "if": ["G001", "G014", "G018", "G021"],
+      "then": {
+        "code": "P002",
+        "name": "Keratokonus",
+        "desc": "Penipisan kornea sehingga menyebabkan perubahan bentuk menjadi kerucut dan penglihatan kabur.",
+        "solution": "Gunakan kacamata khusus atau lensa kontak rigid. Operasi CXL jika parah."
+      }
+    },
+    {
+      "if": ["G005", "G006", "G007", "G008"],
+      "then": {
+        "code": "P003",
+        "name": "Kalazion",
+        "desc": "Benjolan pada kelopak mata akibat peradangan kelenjar minyak.",
+        "solution": "Kompres hangat dan hindari memencet. Jika besar perlu tindakan medis."
+      }
+    },
+    {
+      "if": ["G001", "G005", "G009", "G010", "G011", "G012", "G027", "G028"],
+      "then": {
+        "code": "P004",
+        "name": "Blefaritis",
+        "desc": "Peradangan kronis pada tepi kelopak mata menyebabkan gatal, iritasi dan adanya kerak.",
+        "solution": "Bersihkan kelopak mata secara rutin dan gunakan obat tetes sesuai resep."
+      }
+    },
+    {
+      "if": ["G013", "G014", "G015", "G027"],
+      "then": {
+        "code": "P005",
+        "name": "Hordeolum (Bintitan)",
+        "desc": "Infeksi kelenjar kelopak mata yang menimbulkan benjolan nyeri dan merah.",
+        "solution": "Kompres hangat, hindari menyentuh, antibiotik jika memburuk."
+      }
+    },
+    {
+      "if": ["G001", "G002", "G012", "G014", "G028"],
+      "then": {
+        "code": "P006",
+        "name": "Konjungtivitis",
+        "desc": "Mata merah akibat infeksi atau alergi pada konjungtiva.",
+        "solution": "Hindari menyentuh mata, gunakan obat tetes antibiotik/antialergi sesuai indikasi."
+      }
+    },
+    {
+      "if": ["G005", "G016", "G017"],
+      "then": {
+        "code": "P007",
+        "name": "Trakoma",
+        "desc": "Infeksi bakteri kronis pada konjungtiva yang dapat merusak kornea.",
+        "solution": "Antibiotik sesuai resep dokter mata."
+      }
+    },
+    {
+      "if": ["G018", "G019", "G020"],
+      "then": {
+        "code": "P008",
+        "name": "Ablasio Retina",
+        "desc": "Retina terlepas dari jaringan pendukung, menyebabkan kehilangan penglihatan mendadak.",
+        "solution": "Darurat! Segera tindakan bedah retina."
+      }
+    },
+    {
+      "if": ["G018", "G019"],
+      "then": {
+        "code": "P009",
+        "name": "Retinopati Diabetikum",
+        "desc": "Kerusakan pembuluh darah retina akibat diabetes.",
+        "solution": "Kontrol gula darah, tindakan laser/anti-VEGF."
+      }
+    },
+    {
+      "if": ["G002", "G005", "G014", "G027", "G035", "G043", "G044"],
+      "then": {
+        "code": "P010",
+        "name": "Glaukoma",
+        "desc": "Tekanan bola mata tinggi yang merusak saraf optik dan menyebabkan kebutaan.",
+        "solution": "Pengobatan seumur hidup. Segera ke dokter mata!"
+      }
+    },
+    {
+      "if": ["G001", "G002", "G021", "G022"],
+      "then": {
+        "code": "P011",
+        "name": "Katarak",
+        "desc": "Lensa mata menjadi keruh sehingga penglihatan buram.",
+        "solution": "Operasi penggantian lensa jika mengganggu aktivitas."
+      }
+    },
+    {
+      "if": ["G001", "G018", "G023"],
+      "then": {
+        "code": "P012",
+        "name": "Uveitis",
+        "desc": "Peradangan pada uvea yang dapat menyebabkan nyeri hebat dan risiko kebutaan.",
+        "solution": "Tetes steroid & pemeriksaan lanjutan oleh spesialis."
+      }
+    },
+    {
+      "if": ["G002", "G005", "G025", "G026"],
+      "then": {
+        "code": "P013",
+        "name": "Selulitis Orbitalis",
+        "desc": "Infeksi serius pada jaringan sekitar mata.",
+        "solution": "Rawat inap dan antibiotik intravena."
+      }
+    },
+    {
+      "if": ["G024"],
+      "then": {
+        "code": "P014",
+        "name": "Eksoftalmus",
+        "desc": "Mata menonjol, sering terkait gangguan tiroid.",
+        "solution": "Penanganan kondisi tiroid dan konsultasi spesialis mata."
+      }
+    },
+    {
+      "if": ["G001", "G002", "G014", "G018", "G027", "G028", "G029"],
+      "then": {
+        "code": "P015",
+        "name": "Keratitis Pungtata Superfisialis",
+        "desc": "Peradangan kornea superfisial yang menyebabkan fotofobia dan nyeri.",
+        "solution": "Obat tetes antibiotik dan istirahatkan mata."
+      }
+    },
+    {
+      "if": ["G012", "G028", "G030", "G031"],
+      "then": {
+        "code": "P016",
+        "name": "Alergi Mata Merah",
+        "desc": "Reaksi alergi pada mata yang menyebabkan gatal hebat.",
+        "solution": "Hindari alergen, obat tetes antihistamin."
+      }
+    },
+    {
+      "if": ["G001", "G002", "G023", "G034"],
+      "then": {
+        "code": "P017",
+        "name": "Endoftalmitis",
+        "desc": "Infeksi berat dalam bola mata. Kondisi darurat!",
+        "solution": "Segera penanganan rumah sakit. Tindakan antibiotik intravitreal."
+      }
+    },
+    {
+      "if": ["G025", "G035", "G036", "G037"],
+      "then": {
+        "code": "P018",
+        "name": "Trombosis Sinus Kavernosus",
+        "desc": "Sumbatan pembuluh darah vena otak yang memengaruhi mata.",
+        "solution": "Perawatan darurat di rumah sakit intensif."
+      }
+    },
+    {
+      "if": ["G038", "G039"],
+      "then": {
+        "code": "P019",
+        "name": "Optic Neuritis",
+        "desc": "Peradangan saraf optik yang menurunkan penglihatan mendadak.",
+        "solution": "Pemeriksaan lanjutan dan steroid dosis tinggi."
+      }
+    },
+    {
+      "if": ["G014", "G025", "G027", "G040", "G041"],
+      "then": {
+        "code": "P020",
+        "name": "Dakrioadenitis",
+        "desc": "Infeksi pada kelenjar air mata.",
+        "solution": "Antibiotik dan kompres hangat sesuai anjuran dokter."
+      }
+    }
+  ]
+}
